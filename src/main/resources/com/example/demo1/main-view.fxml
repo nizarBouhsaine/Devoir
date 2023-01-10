@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.MainController">
+   <children>
+      <TableView fx:id="myTable" layoutX="23.0" layoutY="110.0" prefHeight="270.0" prefWidth="551.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="276.79998779296875" text="Product Name" />
+          <TableColumn fx:id="price" prefWidth="273.5999755859375" text="Product Price" />
+        </columns>
+      </TableView>
+      <Label layoutX="209.0" layoutY="26.0" style="-fx-font-size: 35;" text="Product List" />
+   </children>
+</AnchorPane>
